@@ -1,0 +1,31 @@
+h1{
+    text-align:left;
+    display:inline-block;
+    width:20%;
+}
+header{
+    background-color:lightcyan;
+}
+nav{
+    text-align:right;
+    display:inline-block;
+    width:80%;
+    margin:0 0;
+    left:0;
+}
+
+article{
+    display:inline-block;
+    background-color:orange;
+    margin-left:2px;
+    width:47%;
+    vertical-align:middle;
+    text-align:center;
+
+}
+
+img{
+    height:50%;
+    width:50%;
+    float:
+}
