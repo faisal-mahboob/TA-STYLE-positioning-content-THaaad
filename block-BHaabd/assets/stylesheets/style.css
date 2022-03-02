@@ -49,6 +49,12 @@ table {
 
 /*Custom Style*/
 
+
+*, 
+*::before,
+*::after {
+    box-sizing:border-box;
+}
 body{
     background-color:beige;
 }
