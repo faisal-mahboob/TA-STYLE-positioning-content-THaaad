@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+.headfoot{
+    padding:15px 25px;
+    background-color:#6A5ACD;
+}
+
+.clearfix::before, .clearfix::after{
+    content:"";
+    display:table;
+}
+
+.clearfix::after{
+    clear:both;
+}
+
+.logo_img{
+    width:39px;
+    height:39px;
+    float:left;
+    vertical-align:middle;
+}
+
+.nav{
+    float: right;
+    vertical-align:middle;
+    margin-top:14px;
+}
+
+.nav a {
+    text-decoration:none;
+    margin-left:16px; 
+    color: white;
+}
+
+a{
+    vertical-align: center;
+    height:39px;
+}
+
+
+
+.section {
+    background-color:#6A5ACD;
+    text-align:center;   
+    vertical-align: middle; 
+    padding-top:50px;
+    padding-bottom:140px;
+    width:100%;
+    color:white;
+}
+
+.container{
+    margin:0 auto;
+    max-width:1000px;
+}
+h1{
+    font-size:34px;
+    margin-bottom:15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    color:antiquewhite;
+    padding: 20px 0;
+    font-family:"Raleway";
+
+}
+
+.col1{
+    float:left;
+    width: 25%;
+    margin:0 4%;
+}
+
+
+.section2{
+    padding:40px 0;
+}
+
+button{
+    background-color:#6A5ACD;
+    padding:11px 11px;
+    color:white;
+    border:none;
+    font-size:13px;
+    font-family:'Raleway';
+}
+
+.col1 p{
+    color:green;
+}
+.section3{
+    background-color:#6A5ACD;
+    text-align:center;
+    padding:40px 0;
+
+}
+
+h2{
+    font-size:24px;
+    color:white;
+    font-family:'Raleway';
+}
+
+h3{
+    color:#6A5ACD;
+}
+.art1{
+    margin:50px 0;
+    text-align:center;
+}
+.divone{
+    border:1px solid antiquewhite;
+    float:left;
+    width:18%;
+    margin:0 3%;
+    padding:25px 10px;
+    box-sizing:border-box;
+}
+
+h4{
+    font-family:'Raleway';
+    margin-top:15px;
+}
+
+.img1{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.divone p {
+    padding:5px 0;
+    font-family:"Raleway";
+    font-size:11px;
+}
+
+
+.div2{
+    float:left;
+    width:40.5%;
+    margin:0 4%;
+}
+
+.img3{
+    width:100%;
+    height:100px;
+    object-fit: cover;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.art3{
+    text-align:center;
+}
+
+.art3 h2{
+    color:#6A5ACD;
+}
+.art3 p{
+    color:green;
+}
+.div2 p{
+    color:green;
+}
+
+hr{
+    color:green;
+}
+
+small{
+    float:left;
+    vertical-align:middle;
+}
+
+.nav2{
+    float:right;
+}
+
+.nav2 a{
+    color:green;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+footer{
+    padding:20px 0;
+}
