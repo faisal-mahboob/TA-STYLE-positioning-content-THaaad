@@ -49,101 +49,77 @@ table {
 
 /* Custom Styles*/
 
-#logo{
-    width:40px;
-    height:40px;
-    display:inline-block;
-    text-align:left;
-    vertical-align:middle;
+.img1{
+    float:left;
+    width:50px;
+    height:50px;
 }
-header{
-    font-size:0;
-    padding:20px 0;
-    background-color:aliceblue;
+
+.nav{
+    float:right;
+}
+.header{
+    background-color:rgb(47, 46, 53);
+    height:50px;
+    line-height:50px;
     position:fixed;
     width:100%;
 }
-nav{
-    display:inline-block;
-    width:calc(100% - 42px);
-    text-align:right;
-    font-size:16px;
-    vertical-align:middle;
+.a1{
+    text-decoration:none;
+    margin-left:20px;
+    color:white;
 }
 
-.container{
-    margin:0 80px;
-    text-align:center;
+.d1{
+    float:left;
+    max-width:300px;
 }
 
-.clearfix::before, .clearfix::after{
+.d2{
+    float:left;
+    max-width:300px;
+}
+
+.img{
+    width:300px;
+    height:300px;
+}
+
+.clearfix::before,.clearfix::after{
     content:"";
     display:table;
-}   
-
+}
 .clearfix::after{
     clear:both;
 }
 
-.a-one{
+.all{
+    margin-left:200px;
+    padding-top:100px;
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.img2{
+    width:230px;
+    height:250px;
+    border-radius:20%;
     float:left;
-    margin-left:190px;
-    margin-top:40px;
-    color:black;
-    width:250px;
-    vertical-align:middle;
+    margin:56px 50px;
+}
+.foop{
+    height:80px;
+    background-color:rgb(50, 50, 58);
+    line-height:80px;
 }
 
-.b-one{
-    float:left;
-    margin-left:190px;
-    margin-top:60px;
-    width:300px;
-    vertical-align:middle;
+.anch{
+    float:right;
+    margin-right:40px;
 }
-
-.pic1 {
-    width:240px;
-    height:200px;
-    object-fit:contain;
-}
-
-h1{
-    font-size:24px;
-    text-transform:capitalize;
-    font-weight:bold;
-    margin:13px 0;
-}
-
-.b1{
-    width:250px;
-    height:230px;
-    display:inline-block;
-    object-fit:cover
-}
-
-.row1, .row2 {
-    box-sizing:border-box;
-}
-
-.containing{
-    margin:20px auto;
-    text-align:center;
-}
-.small{
-    display:inline-block;
-}
-.button{
-    border-radius:50%;
-    width:60px;
-    height:60px;
-    position:fixed;
-    bottom:20px;
-    right:20px;
-}
-
-.foot{
-    height:30px;
-    padding:40px 0px;
-    background-color:aliceblue;
+button{
+    border-radius:70%;
 }
